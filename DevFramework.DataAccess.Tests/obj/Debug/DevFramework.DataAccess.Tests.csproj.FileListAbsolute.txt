@@ -57,3 +57,16 @@ C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug
 C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\log4net.xml
 C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\Ninject.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\Ninject.xml
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
