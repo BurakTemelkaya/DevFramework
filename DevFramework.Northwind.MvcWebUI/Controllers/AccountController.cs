@@ -10,7 +10,7 @@ namespace DevFramework.Northwind.MvcWebUI.Controllers
 {
     public class AccountController : Controller
     {
-        IUserService _userService;
+        private readonly IUserService _userService;
 
         public AccountController(IUserService userService)
         {

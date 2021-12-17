@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.DataAccess.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Northwind.Business.Tests", "DevFramework.Northwind.Business.Tests\DevFramework.Northwind.Business.Tests.csproj", "{B2D093A0-A6BA-41D2-BDB0-F281098067AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Northwind.WebApi", "DevFramework.Northwind.WebApi\DevFramework.Northwind.WebApi.csproj", "{0F772AC4-2C9C-4525-89B7-76FE1325D35A}"
-EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DevFramework.Northwind.WcfService", "DevFramework.Northwind.WcfService\", "{C97FEF39-D135-42B8-B75A-08940E75E283}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
@@ -42,6 +40,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DevFramework.Northwind.WcfS
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Northwind.Business", "DevFramework.Northwind.Business\DevFramework.Northwind.Business.csproj", "{637B44E7-CD12-4128-A211-C58704CE2F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFramework.Northwind.WebApi", "DevFramework.Northwind.WebApi\DevFramework.Northwind.WebApi.csproj", "{223F1DBA-79AC-4C03-B674-E48E4B5AECD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,10 +77,6 @@ Global
 		{B2D093A0-A6BA-41D2-BDB0-F281098067AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2D093A0-A6BA-41D2-BDB0-F281098067AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2D093A0-A6BA-41D2-BDB0-F281098067AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F772AC4-2C9C-4525-89B7-76FE1325D35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F772AC4-2C9C-4525-89B7-76FE1325D35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F772AC4-2C9C-4525-89B7-76FE1325D35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F772AC4-2C9C-4525-89B7-76FE1325D35A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C97FEF39-D135-42B8-B75A-08940E75E283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C97FEF39-D135-42B8-B75A-08940E75E283}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C97FEF39-D135-42B8-B75A-08940E75E283}.Release|Any CPU.ActiveCfg = Debug|Any CPU
@@ -89,6 +85,10 @@ Global
 		{637B44E7-CD12-4128-A211-C58704CE2F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{637B44E7-CD12-4128-A211-C58704CE2F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{637B44E7-CD12-4128-A211-C58704CE2F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223F1DBA-79AC-4C03-B674-E48E4B5AECD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223F1DBA-79AC-4C03-B674-E48E4B5AECD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223F1DBA-79AC-4C03-B674-E48E4B5AECD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223F1DBA-79AC-4C03-B674-E48E4B5AECD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,8 +12,8 @@ namespace DevFramework.Core.Aspects.PostSharp.CacheAspects
     [Serializable]
     public class CacheRemoveAspect : OnMethodBoundaryAspect
     {
-        private string _pattern;
-        private Type _cacheType;
+        private readonly string _pattern;
+        private readonly Type _cacheType;
         private ICacheManager _cacheManager;
         public CacheRemoveAspect(Type cacheType)
         {

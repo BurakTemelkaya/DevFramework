@@ -12,8 +12,8 @@ namespace DevFramework.Core.Utilities.Mvc.Infrastructure
 {
     public class NinjectControllerFactory : DefaultControllerFactory
     {
-        private IKernel _kernal;
-        public NinjectControllerFactory(INinjectModule module)
+        private readonly IKernel _kernal;
+        public NinjectControllerFactory(params INinjectModule[] module)
         {
             _kernal = new StandardKernel(module);
         }

@@ -12,8 +12,8 @@ namespace DevFramework.Core.Aspects.PostSharp.CacheAspects
     [Serializable]
     public class CacheAspect : MethodInterceptionAspect
     {
-        private Type _cacheType;
-        private int _cacheByMinute;
+        private readonly Type _cacheType;
+        private readonly int _cacheByMinute;
         private ICacheManager _cacheManager;
         public CacheAspect(Type cacheType, int cacheByMinute=60)
         {

@@ -70,3 +70,5 @@ C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug
 C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.Razor.xml
 C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\AutoMapper.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.DataAccess.Tests\bin\Debug\AutoMapper.xml

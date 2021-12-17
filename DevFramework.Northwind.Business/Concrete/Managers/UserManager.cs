@@ -12,7 +12,7 @@ namespace DevFramework.Northwind.Business.Concrete.Managers
 {
     public class UserManager : IUserService
     {
-        IUserDal _userDal;
+        private readonly IUserDal _userDal;
 
         public UserManager(IUserDal userDal)
         {
@@ -21,12 +21,14 @@ namespace DevFramework.Northwind.Business.Concrete.Managers
 
         public User GetByUserNameAndPassword(string userName, string password)
         {
-            return _userDal.Get(u => u.UserName == userName && u.Password == password);
+            var value = _userDal.Get(u => u.UserName == userName && u.Password == password);
+            return value;
         }
 
         public List<UserRoleItem> GetUserRoles(User user)
         {
-            return _userDal.GetUserRoles(user);
+            var value = _userDal.GetUserRoles(user);
+            return value;
         }
     }
 }

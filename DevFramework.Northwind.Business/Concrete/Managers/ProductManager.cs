@@ -19,16 +19,20 @@ using DevFramework.Core.Aspects.PostSharp.LogAspects;
 using DevFramework.Core.Aspects.PostSharp.PerformanceAspects;
 using System.Threading;
 using DevFramework.Core.Aspects.PostSharp.AuthorizationAspects;
+using AutoMapper;
+using DevFramework.Core.Utilities.Mappings;
 
 namespace DevFramework.Northwind.Business.Concrete.Managers
 {
-    
+
     public class ProductManager : IProductService
     {
         private readonly IProductDal _productDal;
-        public ProductManager(IProductDal productDal)
+        private readonly IMapper _mapper;
+        public ProductManager(IProductDal productDal,IMapper mapper)
         {
             _productDal = productDal;
+            _mapper = mapper;
         }
         [FluentValidationAspect(typeof(ProductValidator))]
         [CacheRemoveAspect(typeof(MemoryCacheManager))]
@@ -44,11 +48,14 @@ namespace DevFramework.Northwind.Business.Concrete.Managers
         }
         [CacheAspect(typeof(MemoryCacheManager))]
         [PerformansCounterAspect(2)]
-        [SecuredOperation(Roles="Admin,Editor,Student")]
+        [SecuredOperation(Roles = "Admin,Editor,Student")]
         public List<Product> GetAll()
         {
-            return _productDal.GetList();
+            var products = _mapper.Map<List<Product>>(_productDal.GetList());
+            return products;
         }
+
+        
 
         public Product GetById(int id)
         {

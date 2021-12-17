@@ -78,3 +78,5 @@ C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\b
 C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\sv\FluentValidation.resources.dll
 C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\tr\FluentValidation.resources.dll
 C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\zh-CN\FluentValidation.resources.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\AutoMapper.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\AutoMapper.xml

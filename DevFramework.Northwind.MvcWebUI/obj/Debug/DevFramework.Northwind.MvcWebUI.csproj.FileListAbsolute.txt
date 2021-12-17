@@ -128,3 +128,12 @@ C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Dev
 C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\obj\Debug\DevFramework.Northwind.MvcWebUI.dll.postsharp
 C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\EntityFramework.SqlServer.dll
 C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Ninject.Web.Common.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Ninject.Web.Mvc.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\WebActivatorEx.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Ninject.Web.Common.xml
+C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Ninject.Web.Mvc.xml
+C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\AutoMapper.dll
+C:\Users\Burak\source\repos\DevFramework\DevFramework.Northwind.MvcWebUI\bin\AutoMapper.xml
